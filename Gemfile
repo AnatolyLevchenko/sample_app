@@ -9,7 +9,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '3.3.2'
   gem 'guard-rspec','4.6.0'
-  gem 'bcrypt-ruby', '~> 3.1.0'
+  gem 'bcrypt-ruby', '~> 3.0.0'
 end
 
 group :test do
