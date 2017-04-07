@@ -4,11 +4,13 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.2'
 gem 'growl','1.0.3'
+gem 'rake','<11.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '3.3.2'
   gem 'guard-rspec','4.6.0'
+  gem 'bcrypt-ruby', '3.1.2'
 end
 
 group :test do
