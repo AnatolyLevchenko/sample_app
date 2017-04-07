@@ -9,8 +9,8 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'guard-rspec'
-  gem 'bcrypt-ruby'
 end
+gem  'bcrypt-ruby', '3.0.0'
 
 group :test do
   gem 'selenium-webdriver'
