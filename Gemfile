@@ -26,6 +26,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'factory_girl_rails'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
