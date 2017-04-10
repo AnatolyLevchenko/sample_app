@@ -3,8 +3,11 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails'
+gem 'spork'
 gem 'growl'
 gem 'rake'
+gem 'rspec-its'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'

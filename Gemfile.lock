@@ -152,6 +152,9 @@ GEM
     rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
+    rspec-its (1.2.0)
+      rspec-core (>= 3.0.0)
+      rspec-expectations (>= 3.0.0)
     rspec-mocks (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
@@ -181,6 +184,7 @@ GEM
       websocket (~> 1.0)
     shellany (0.0.1)
     slop (3.6.0)
+    spork (0.9.2)
     sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -231,10 +235,12 @@ DEPENDENCIES
   rails
   rails_12factor
   rake
+  rspec-its
   rspec-rails
   sass-rails
   sdoc (= 0.3.20)
   selenium-webdriver
+  spork
   sqlite3
   therubyracer
   turbolinks
